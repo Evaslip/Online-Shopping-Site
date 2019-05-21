@@ -1,0 +1,6 @@
+.links-navigation__item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(148, 148, 148);
+    font-size: 12px;
+}

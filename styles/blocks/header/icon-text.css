@@ -1,0 +1,18 @@
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.icon-text__icon {
+    width: 30px;
+    height: 30px;
+    background: center center / cover no-repeat;
+}
+
+.icon-text__icon_photo {
+    background-image: url(../../images/icons/account.png)
+}
+
+.icon-text__icon_basket {
+    background-image: url(../../images/icons/bascet.png)
+}

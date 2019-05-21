@@ -1,0 +1,114 @@
+.line_indent {
+    margin-bottom: 10vw;
+}
+
+.margin-bottom-6 {
+    margin-bottom: 6vw;
+}
+
+.choose-text-format {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-style: inherit;
+    margin: 2vw 10px 2vw 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formatting {
+    min-width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 2;
+    flex-basis: 150px;
+}
+
+.line_indent-2 {
+    margin: inherit;
+}
+
+.formatting__photo {
+    min-width: 110px;
+    min-height: 125px;
+    background: center center/contain no-repeat;
+    border: 1px solid rgb(128, 128, 128);
+}
+
+.choose-text-format-2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.choose-text-format-3 {
+    text-transform: initial;
+    font-size: 13px;
+}
+
+.formatting__text {
+    text-align: left;
+    width: 50%;
+}
+
+.formatting__quantity {
+    display: flex;
+    align-items: center;
+}
+
+.formatting__quantity-change {
+    border: 1px solid rgb(0, 0, 0);
+    width: 9px;
+    height: 10px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 1px 7px;
+    text-align: center;
+    line-height: 75%;
+    cursor: pointer;
+}
+
+.popup-button3 {
+    background: center center/ contain no-repeat;
+    min-width: 13px;
+    min-height: 13px;
+}
+
+.choose-text-format-4 {
+    text-transform: uppercase;
+    padding: 2vw 10px 2vw 10px;
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(233, 233, 233)
+}
+
+.total-price {
+    margin: 0 8vw 0 3vw;
+    color: rgb(255, 165, 0);
+}
+
+.broken-line {
+    display: flex;
+    justify-content: center;
+}
+
+.broken-line__unit {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+}
+ 
+.broken-line__unit:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;    
+    border-right: 2.5px solid rgb(255, 165, 0);
+    border-bottom: 2.5px solid rgb(255, 165, 0);
+    transform: rotate(45deg);
+}
+ 

@@ -1,0 +1,14 @@
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 7vh;
+    margin-bottom: 1vh;
+}
+
+.choose-text {
+    color: rgb(148, 148, 148);
+    font-style: italic;
+    text-align: center;
+}

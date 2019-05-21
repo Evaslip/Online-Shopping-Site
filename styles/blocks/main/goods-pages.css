@@ -1,0 +1,23 @@
+.goods-pages {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.goods-pages__item {
+    width: 20px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 4px 0;
+    cursor: pointer;
+}
+
+.goods-pages__item_hover {
+    color: black;
+    background: white;
+    border: 1px solid grey;
+}

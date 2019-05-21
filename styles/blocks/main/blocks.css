@@ -1,0 +1,306 @@
+.main-blocks {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-blocks_items {
+    min-width: 20%;
+    min-height: 200px;
+    cursor: pointer;
+    display: block;
+}
+
+.main-blocks_items-jeans {
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url(/images/1.jpg) center center/cover no-repeat;
+    position: relative;
+}
+
+.main-blocks_items-child {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url(/images/4.jpg) center center/cover no-repeat;
+}
+
+.main-blocks_items_inside {
+    margin: auto;
+}
+
+.main-blocks_items_text {
+    color: white;
+    font-size: 120%;
+}
+
+.main-blocks_items_text_c {
+    font-style: italic;
+    color: white;
+    font-size: 100%;
+}
+
+.main-blocks_items-jeans_text {
+    height: 200px;
+    width: 100%;
+    background: rgb(190, 190, 190);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+
+.main-blocks_items-child_text {
+    height: 200px;
+    position: relative;
+    width: 100%;
+    background: rgb(190, 190, 190);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.main-blocks_items-jeans_img {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    background: url(/images/icons/warning.png) center center / contain no-repeat;
+}
+
+.main-blocks_items-acc {
+    height: 200px;
+    width: 100%;
+    background: url(/images/5.jpg) center center/cover no-repeat;
+    position: relative;
+}
+
+.main-blocks_items-boots {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background: url(/images/3.jpg) center center/cover no-repeat;
+}
+
+.main-blocks_items-sport {
+    height: 200px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    background: url(/images/6.jpg) center center/cover no-repeat;
+}
+
+.main-blocks_items-boots_text {
+    position: relative;
+    height: 200px;
+    display: flex;
+    width: 100%;
+    background: rgb(131, 131, 131);
+    justify-content: center;
+    text-align: center;
+}
+
+.main-blocks_items-boots_img {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    background: url(/images/icons/left-arrow.png) center center / contain no-repeat;
+}
+
+.main-blocks_items-jeans_choose {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background: url(/images/2.jpg) center center / cover no-repeat;
+}
+
+.main-blocks_items-acc_text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background: rgb(100, 98, 98);
+}
+
+.main-blocks_items_text_s {
+    color: black;
+}
+
+.spo {
+    color: black;
+}
+
+.main-blocks_items-jeans:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-jeans:hover:before {
+	width: 100%;
+}
+
+
+.main-blocks_items-acc:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-acc:hover:before {
+	width: 100%;
+}
+
+
+.main-blocks_items-jeans_text:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-jeans_text:hover:before {
+	width: 100%;
+}
+
+
+
+.main-blocks_items-jeans_choose:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-jeans_choose:hover:before {
+	width: 100%;
+}
+
+
+.main-blocks_items-acc_text:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-acc_text:hover:before {
+	width: 100%;
+}
+
+
+.main-blocks_items-boots:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-boots:hover:before {
+	width: 100%;
+}
+
+
+.main-blocks_items-child_text:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-child_text:hover:before {
+	width: 100%;
+}
+
+
+.main-blocks_items-sport:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-sport:hover:before {
+	width: 100%;
+}
+
+
+.main-blocks_items-boots_text:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-boots_text:hover:before {
+	width: 100%;
+}
+
+
+.main-blocks_items-child:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1s ease;
+}
+
+.main-blocks_items-child:hover:before {
+	width: 100%;
+}

@@ -1,0 +1,15 @@
+.categories {
+    text-align: center;
+    margin: 5vh;
+}
+
+.categories__items {
+    font-style: italic;
+    color: rgb(148, 148, 148);
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 0 10px;
+    width: 130px;
+    background-color: rgba(255, 255, 255, 0.459);
+    outline: none;
+}

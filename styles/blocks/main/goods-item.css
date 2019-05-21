@@ -1,0 +1,32 @@
+.goods {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.goods__item {
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.goods__item-photo {
+    background: url(../../images/catalog/1.jpg) center center / contain no-repeat;
+    height: 300px;
+    border: 1px solid grey;
+}
+
+.goods__item-name{
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.goods__item-price {
+    font-size: 12px;   
+    text-decoration: none;
+}

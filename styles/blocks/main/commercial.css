@@ -1,0 +1,15 @@
+.main-commercial {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-commercial_cursive {
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.main-commercial_main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}

@@ -1,0 +1,51 @@
+.desc__bacground__img {
+    width: 100%;
+    height: 400px;
+    background: url(/images/catalog/7.jpg) center center / contain no-repeat;
+}
+
+.desc__bacground {
+    background-color:rgb(231, 231, 231);;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.desc__name {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.desc__price {
+    display: block;
+    color:rgb(124, 124, 124);
+    font-size: 20px;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.desc__detailed {
+    color:rgb(124, 124, 124);
+    font-size: 12px;
+    padding-top: 20px; 
+    width: 50%;
+}
+
+.desc__size {
+    text-align: center;
+    margin-bottom: 80px; 
+}
+
+.desc__size__number {
+    border: 2px solid rgb(231, 231, 231);
+    padding: 6px;
+    cursor: pointer;
+}
+
+.desc__size__title {
+    padding-bottom: 20px;
+    color:rgb(124, 124, 124);
+}

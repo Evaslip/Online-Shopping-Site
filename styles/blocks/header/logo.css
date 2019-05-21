@@ -1,0 +1,10 @@
+.logo {
+    width: 42px;
+    height: 42px;
+    background: url(../../images/icons/logo.jpg) center center / cover no-repeat;
+    cursor: pointer;
+}
+
+.logo_margin-right {
+    margin-right: 15px;
+}
